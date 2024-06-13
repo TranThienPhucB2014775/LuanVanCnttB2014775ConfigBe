@@ -1,8 +1,6 @@
 server:
   port: 8070
-  servlet:
-    context-path: /euruka
-
+  
 eureka:
   instance:
     hostname: localhost
