@@ -1,0 +1,12 @@
+server:
+  port: 8070
+  servlet:
+    context-path: /euruka
+
+build:
+  version: "1.0"
+
+accounts:
+  contactDetails:
+    name: "Tran Thien Phuc - Developer"
+    email: "phuctt.dev@gmail.com"
