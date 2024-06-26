@@ -8,3 +8,12 @@ accounts:
   contactDetails:
     name: "Tran Thien Phuc - Developer"
     email: "phuctt.dev@gmail.com"
+
+eureka:
+  instance:
+    preferIpAddress: true
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: "http://localhost:8070/eureka/"
